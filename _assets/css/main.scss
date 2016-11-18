@@ -5,25 +5,6 @@
 
 @import "template/bootstrap/bootstrap";
 @import "template/jednotka_green";
+@import "overrides";
 
 
-
-.home-hero-slide-one {
-  background-image: url(asset_path('big1.jpg'));
-  h2 { color: #46442d !important; }
-  p { color: #31301d !important; }
-}
-.home-hero-slide-two {
-  background-image: url(asset_path('big2.jpg'));
-	h2 { color: #cc3556 !important; }
-	p { color: #252525 !important; }
-}
-.home-hero-slide-three {
-  background-image: url(asset_path('big3.jpg'));
-  h2 { color: #694839 !important; }
-  p { color: #694839 !important; }
-}
-
-#header {
-	background:rgba(255, 255, 255, 0.7); 
-}

@@ -55,10 +55,10 @@ assets:
     - _assets/js/jednotka/plugins/
     - _assets/fonts/
     - _assets/fonts/font-awesome/
-  digest: false        
+  digest: true        
   compress:
-    css: false
-    js: false
+    css: true
+    js: true
 
 anenta: 
   company_name: Springboard Designs Ltd
