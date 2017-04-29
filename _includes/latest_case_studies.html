@@ -1,0 +1,26 @@
+<div class='page-header page-header-with-icon'>
+  <i class='fa fa-suitcase'></i>
+  <h2>
+    {{ site.data.general.latest_case_studies.title}}
+    <small>{{ site.data.general.latest_case_studies.caption}}</small>
+  </h2>
+</div>
+
+
+<div class='row portfolio-boxes'>
+
+  {% for case_study in site.data.latest_case_studies %}
+
+  <div class='col-sm-3 col-xs-6 no-mb-t-xs portfolio-box'>
+    <a class='image-link' href='portfolio_detail.html'>
+      <i class='fa fa-search'></i>
+      {% img {{case_study.image}} class:'img-responsive img-rounded center-block' width:262 height:262 %}
+    </a>
+    <h3 class='title'>{{ case_study.name }}</h3>
+    <p class='category'>{{ case_study.categories }}</p>
+  </div>
+
+  {% endfor %}
+
+
+</div>

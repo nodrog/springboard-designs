@@ -1,0 +1,19 @@
+- name: Brief
+  content: <div style="margin-bottom:7px;"><strong>Concept / Product Specifications</strong></div>Quality, Budget, Timings, Production and Delivery
+  step_number: 1
+  percentage_value: 25
+
+- name: Develop
+  content: Phasellus et scelerisque justo, et ultrices sem imperdiet eu. Maecenas lacinia leo.
+  step_number: 2
+  percentage_value: 50
+
+- name: Produce
+  content: Nulla non interdum sem. Vestibulum is varius fermentum auctor praesent.
+  step_number: 3
+  percentage_value: 75
+
+- name: Deliver
+  content: Nunc et dictum dui, ac sodales sapien. Ut tincidunt gravida nisi, sit amet interdum.
+  step_number: 4
+  percentage_value: 100

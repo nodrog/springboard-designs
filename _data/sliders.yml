@@ -1,0 +1,38 @@
+- id: 466
+  image: big466.jpg
+  align: right
+  width: 50%
+  title: slider one title
+  content: content
+
+- id: 320
+  image: big320.jpg
+  align: left
+  width: 50%
+  title: slider two title
+  content: content
+
+- id: 043
+  image: big043.jpg
+  align: right
+  width: 50%
+  title: slider three title
+  content: content
+
+- id: 367
+  image: big367.jpg
+  align: right
+  width: 50%
+  title: slider four title
+  content: content
+
+- id: 255
+  image: big255.jpg
+  align: right
+  width: 50%
+  title: slider five title
+  title_style: width:400px;
+  content: For over 15 years Caroline has delivered consistently for L’Occitane with her solutions for merchandise, gifts, packaging and &amp; print.
+                              Her creativity knows no bounds - constantly developing new products and innovations to assist us in our Marketing campaigns. We recommend her without hesitation. She is a preferred supplier to L’Occitane.&quot; <br/>
+                              <strong>Sabrina Herlory Rouget, General Manager France - L’Occitane en Provence</strong>
+  content_style: width:400px;

@@ -1,0 +1,31 @@
+<div class='hero-carousel carousel-blur carousel-blur-arrows carousel-blur-pagination flexslider' id='carousel-example-1'>
+  <ul class='slides'>
+
+  {% for slider in site.data.sliders %}
+
+    <li class='item home-hero-slide' style="background-image:url(/assets/{{ assets[slider.image].digest_path }});">
+      <div class='container'>
+        <div class='row'>
+          <div class='col-lg-12 animate'>
+
+            <div style='float:{{ slider.align }}; width: {{ slider.width }};'>
+            
+              <h2 class='big fadeInUp animated'>
+               {{ slider.title }}
+              </h2>
+              
+              <p class='normal fadeInUp animated'>
+                {{ slider.content }}
+              </p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </li> 
+
+  {% endfor %}
+
+  </ul>
+</div>

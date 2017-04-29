@@ -1,0 +1,14 @@
+- name: Merchandise
+  content: Beautifully designed hardware,<br/>accessories and clothing
+  image: 'images/solutions/merchandise.jpg'
+  icon: key
+
+- name: Print
+  content: Quality sleeves, inserts, fliers<br/>and flat packed boxes
+  image: 'images/solutions/merchandise.jpg'
+  icon: cube
+
+- name: Packaging
+  content: From bags to boxes and baskets<br/>to pouches and tins
+  image: 'images/solutions/merchandise.jpg'
+  icon: diamond
