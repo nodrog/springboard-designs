@@ -14,3 +14,10 @@ processes:
 latest_case_studies:
   title: Latest Case Studies
   caption: Phasellus malesuada sapien non orci semper gravida.
+
+footer: 
+  about: Integer vulputate porta augue, sit amet interdum tellus commodo et. Sed volutpat neque vel turpis ultrices sini bibendum. Aliquam quis malesuada.
+  address: 44 Franche Court Road<br/>London SW17 0JU<br/>United Kingdom
+  telephone: 020 8355 0202
+  email: caroline@springboarddesigns.co.uk
+  web_address: www.springboarddesigns.co.uk

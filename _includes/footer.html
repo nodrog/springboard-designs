@@ -6,25 +6,24 @@
           <div class='logo-container'>
             {% img 'logo-green-header.png' alt:'Springboard Designs' %}
           </div>
-          <p class='no-mg-b'>Integer vulputate porta augue, sit amet interdum tellus commodo et. Sed volutpat neque vel turpis ultrices sini bibendum. Aliquam quis malesuada.</p>
+          <p class='no-mg-b'>{{ site.data.general.footer.about }}</p>
         </div>
 
 
-        <div class='col-md-2 col-sm-6 info-box social-box'>
+        <div class='col-md-1 col-sm-6 info-box social-box'>
           
         </div>
 
+
         <div class='col-md-4 col-sm-6 info-box'>
-          <h2 class='title'>Contact</h2>
+          <div class='logo-container'></div>
           <div class='icon-boxes'>
             <div class='icon-box'>
               <div class='icon icon-wrap'>
                 <i class='fa fa-map-marker'></i>
               </div>
               <div class='content'>
-                44 Franche Court Road<br/>
-                London SW17 0JU<br/>
-                United Kingdom
+                {{ site.data.general.footer.address }}
               </div>
             </div>
             <div class='icon-box'>
@@ -32,25 +31,25 @@
                 <i class='fa fa-phone'></i>
               </div>
               <div class='content'>
-                <a href='tel:020 8355 0202'>020 8355 0202</a>
+                <a href='tel:{{ site.data.general.footer.telephone }}'>{{ site.data.general.footer.telephone }}</a>
               </div>
             </div>
             <div class='icon-box'>
               <div class='icon icon-wrap'>
                 <i class='fa fa-envelope'></i>
               </div>
-              <div class='content'><a href="mailto:caroline@springboarddesigns.co.uk">caroline@springboarddesigns.co.uk</a></div>
+              <div class='content'><a href="mailto:{{ site.data.general.footer.email }}">{{ site.data.general.footer.email }}</a></div>
             </div>
             <div class='icon-box'>
               <div class='icon icon-wrap'>
                 <i class='fa fa-globe'></i>
               </div>
-              <div class='content'><a href="#">www.springboarddesigns.co.uk</a></div>
+              <div class='content'><a href="#">{{ site.data.general.footer.web_address }}</a></div>
             </div>
           </div>
         </div>
 
-        <div class='col-md-3 col-sm-6 info-box'>
+        <!-- <div class='col-md-3 col-sm-6 info-box'>
           <h2 class='title'>Newsletter</h2>
           <p>Proin condimentum, nisi vel vestibulum ultricies, nunc elit.</p>
           <form action='index.html' class='form-inline form-validation' method='get'>
@@ -66,6 +65,8 @@
             </div>
           </form>
         </div>
+      </div> -->
+
       </div>
     </div>
   </div>

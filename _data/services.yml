@@ -1,28 +1,28 @@
-- name: 'Design'
+- name: '1 Design'
   content: <p>Springboard specializes in designing, sourcing and delivering creative promotional and retail merchandise, print and packaging, for consumer sales and marketing activity.</p>
   image: 'images/services/design.jpg'
 
-- name: 'Account Management'
+- name: '2 Account Management'
   content: <p>Springboard specializes in designing, sourcing and delivering creative promotional and retail merchandise, print and packaging, for consumer sales and marketing activity.</p>
   image: 'images/services/design.jpg'
 
-- name: 'Logistics'
+- name: '3 Logistics'
   content: <p>Springboard specializes in designing, sourcing and delivering creative promotional and retail merchandise, print and packaging, for consumer sales and marketing activity.</p>
   image: 'images/services/design.jpg'
 
-- name: 'Product Testing'
+- name: '4 Product Testing'
   content: <p>Springboard specializes in designing, sourcing and delivering creative promotional and retail merchandise, print and packaging, for consumer sales and marketing activity.</p>
   image: 'images/services/design.jpg'
 
-- name: 'Ethical Trading'
+- name: '5 Ethical Trading'
   content: <p>Springboard specializes in designing, sourcing and delivering creative promotional and retail merchandise, print and packaging, for consumer sales and marketing activity.</p>
   image: 'images/services/design.jpg'
 
-- name: 'Warehousing'
+- name: '6 Warehousing'
   content: <p>Springboard specializes in designing, sourcing and delivering creative promotional and retail merchandise, print and packaging, for consumer sales and marketing activity.</p>
   image: 'images/services/design.jpg'
 
-- name: 'Consultancy'
+- name: '7 Consultancy'
   content: <p>Springboard specializes in designing, sourcing and delivering creative promotional and retail merchandise, print and packaging, for consumer sales and marketing activity.</p>
   image: 'images/services/design.jpg'
 
