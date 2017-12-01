@@ -30,10 +30,10 @@
     float: none;
     height: $nav-height;
     @include vertical-align;
-    width:177px !important; 
+    width:177px !important;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url(asset_path('logo-green-header.png'));
+    background-image: url(asset_path('logo-gold-header.png'));
   }
 
   .navbar-toggle {

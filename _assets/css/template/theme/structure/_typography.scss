@@ -76,8 +76,20 @@ p {
   }
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
   font-family: $font-family-headings;
+  font-weight: 500;
+  color: $headings-color;
+
+  small {
+    color: $headings-small-color;
+    font-family: $font-family-base;
+    margin-top: 15px;
+  }
+}
+
+h2, h3, h4, h5, h6 {
+  font-family: $font-family-base;
   font-weight: 500;
   color: $headings-color;
 
@@ -166,7 +178,7 @@ pre {
 
 .page-header {
   position: relative;
-  
+
   &.page-header-with-icon {
     text-align: center;
     border-top: 2px solid $page-header-with-icon-border;
@@ -181,7 +193,7 @@ pre {
       left: 50%;
       top: floor(-($page-header-with-icon-size / 2));
       margin-left: -($page-header-with-icon-size);
-      color: $contrast;
+      color: lighten($contrast, 20%);
       background-color: $main-content-bg;
       font-size: floor($page-header-with-icon-size / 1.5);
       line-height: $page-header-with-icon-size;

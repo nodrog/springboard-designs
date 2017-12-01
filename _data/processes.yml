@@ -1,19 +1,43 @@
 - name: Brief
-  content: <div style="margin-bottom:7px;"><strong>Concept / Product Specifications</strong></div>Quality, Budget, Timings, Production and Delivery
+  content: '
+    <p>Concept/ product specification</p>
+    <p>Quantity</p>
+    <p>Budget</p>
+    <p>Timings</p>
+    <p>Production & delivery specifications</p>
+  '
   step_number: 1
   percentage_value: 25
 
-- name: Develop
-  content: Phasellus et scelerisque justo, et ultrices sem imperdiet eu. Maecenas lacinia leo.
+- name: Development
+  content: '
+    <p>Briefing of factory</p>
+    <p>Initial design & samples</p>
+    <p>Pricing</p>
+    <p>Production schedule</p>
+    <p>Design & cost amendments</p>
+    <p>Pre-production samples</p>
+  '
   step_number: 2
   percentage_value: 50
 
-- name: Produce
-  content: Nulla non interdum sem. Vestibulum is varius fermentum auctor praesent.
+- name: Production
+  content: '
+    <p>Order confirmation & receipt of PO</p>
+    <p>Final artwork provided</p>
+    <p>Carton & label confirmation</p>
+    <p>Factory inspections (FRI & DUPRO)</p>
+    <p>Packing ready for shipping</p>
+    <p>Production samples  </p>
+  '
   step_number: 3
   percentage_value: 75
 
-- name: Deliver
-  content: Nunc et dictum dui, ac sodales sapien. Ut tincidunt gravida nisi, sit amet interdum.
+- name: Delivery
+  content: '
+    <p>Palletisation</p>
+    <p>Delivery booking in</p>
+    <p>Delivery to warehouse  </p>
+  '
   step_number: 4
   percentage_value: 100

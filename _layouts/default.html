@@ -26,7 +26,7 @@
     <![endif]-->
 
   </head>
-  <body class='homepage'>
+  <body class='homepage' data-spy="scroll" data-target="#navbar-main" data-offset="100">
     <div id='wrapper'>
       {% include header.html %}
       {{ content }}
@@ -35,6 +35,6 @@
     <!-- / required javascripts -->
 
     {% js js/main %}
-    
+
   </body>
 </html>

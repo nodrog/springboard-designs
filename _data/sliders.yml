@@ -1,38 +1,51 @@
-- id: 466
-  image: big466.jpg
-  align: right
-  width: 50%
-  title: slider one title
-  content: content
+- id: 553
+  image: big553t.jpg
+  image_align: right
+  text_align: left
+  width: 30%
+  title: Designing, sourcing and delivering
+  content: Springboard Designs specialise in creating promotional and retail branded merchandise and print for consumer sales and marketing activity
 
-- id: 320
-  image: big320.jpg
-  align: left
-  width: 50%
-  title: slider two title
-  content: content
+- id: 466
+  image: big466t.jpg
+  image_align: left
+  text_align: right
+  width: 30%
+  title: Creativity is key
+  content: "We are totally focussed on creativity: producing bespoke products & packaging to make an impact, engage and retain your customer"
 
 - id: 043
-  image: big043.jpg
-  align: right
-  width: 50%
-  title: slider three title
-  content: content
+  image: big043t.jpg
+  image_align: left
+  text_align: right
+  width: 30%
+  title: A collaborative approach
+  content: Working alongside clients from design concept to warehouse & fulfilment services
 
 - id: 367
-  image: big367.jpg
-  align: right
-  width: 50%
-  title: slider four title
-  content: content
+  image: big367t.jpg
+  image_align: left
+  text_align: right
+  width: 40%
+  title: Happy factories
+  content: Ethical factories are selected to meet client and product requirements and are continually audited
 
-- id: 255
-  image: big255.jpg
-  align: right
+- id: 320
+  image: big320t.jpg
+  image_align: left
+  text_align: right
   width: 50%
-  title: slider five title
+  title: Global reach
   title_style: width:400px;
-  content: For over 15 years Caroline has delivered consistently for L’Occitane with her solutions for merchandise, gifts, packaging and &amp; print.
-                              Her creativity knows no bounds - constantly developing new products and innovations to assist us in our Marketing campaigns. We recommend her without hesitation. She is a preferred supplier to L’Occitane.&quot; <br/>
-                              <strong>Sabrina Herlory Rouget, General Manager France - L’Occitane en Provence</strong>
+  content: From small design details to global delivery XYZ….
+  content_style: width:400px;
+
+- id: 543
+  image: big543t.jpg
+  image_align: right
+  text_align: left
+  width: 50%
+  title: Happy clients
+  title_style: width:400px;
+  content: not sure on what should go here
   content_style: width:400px;

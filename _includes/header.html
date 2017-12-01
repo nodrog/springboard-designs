@@ -10,26 +10,23 @@
         </button>
         <a class='navbar-brand' href='index.html'></a>
       </div>
-      <div class='collapse navbar-collapse navbar-header-collapse'>
+      <div id="navbar-main" class='collapse navbar-collapse navbar-header-collapse'>
         <ul class='nav navbar-nav navbar-right'>
-          <li {% if page.nav == 'home' %} class='active' {% endif %}>
-            <a href='/'>
-              <span>Home</span>
-            </a>
+          <li>
+            <a href='/#home'><span>Home</span></a>
           </li>
-          <li {% if page.nav == 'services' %} class='active' {% endif %}>
-            <a href='/services'>
-              <span>Services</span>
-            </a>
+          <li>
+            <a href='/#about'><span>About</span></a>
+          </li>
+          <li>
+            <a href='/#services'><span>Services</span></a>
+          </li>
+          <li>
+            <a href='/#process'><span>Process</span></a>
           </li>
           <li {% if page.nav == 'what-we-do' %} class='active' {% endif %}>
             <a href='/what-we-do'>
               <span>Solutions</span>
-            </a>
-          </li>
-          <li {% if page.nav == 'how-we-work' %} class='active' {% endif %}>
-            <a href='/how-we-work'>
-              <span>Process</span>
             </a>
           </li>
           <li {% if page.nav == 'clients' %} class='active' {% endif %}>
@@ -41,7 +38,7 @@
             <a href='/contact'>
               <span>Contact</span>
             </a>
-          </li>                              
+          </li>
         </ul>
       </div>
     </nav>

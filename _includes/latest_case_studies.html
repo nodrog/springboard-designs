@@ -1,5 +1,5 @@
 <div class='page-header page-header-with-icon'>
-  <i class='fa fa-suitcase'></i>
+  <i class='fa fa-star'></i>
   <h2>
     {{ site.data.general.latest_case_studies.title}}
     <small>{{ site.data.general.latest_case_studies.caption}}</small>
@@ -8,15 +8,16 @@
 
 
 <div class='row portfolio-boxes'>
+  {% assign case_studies = site.data.case_studies | where: "latest", true %}
 
-  {% for case_study in site.data.latest_case_studies %}
+  {% for case_study in case_studies %}
 
   <div class='col-sm-3 col-xs-6 no-mb-t-xs portfolio-box'>
-    <a class='image-link' href='portfolio_detail.html'>
+    <a class='image-link' href='{{ case_study.title | datapage_url: 'case-studies' }}'>
       <i class='fa fa-search'></i>
-      {% img {{case_study.image}} class:'img-responsive img-rounded center-block' width:262 height:262 %}
+      {% img {{case_study.latest_image}} class:'img-responsive img-rounded center-block' width:262 height:262 %}
     </a>
-    <h3 class='title'>{{ case_study.name }}</h3>
+    <h3 class='title'>{{ case_study.title }}</h3>
     <p class='category'>{{ case_study.categories }}</p>
   </div>
 

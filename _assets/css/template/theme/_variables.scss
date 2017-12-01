@@ -63,8 +63,8 @@ $panel-icon-color: $white !default;
 $panel-icon-border: 10px !default;
 
 // typography
-$font-family-base: "Open Sans" !default;
-$font-family-headings: "Roboto" !default;
+$font-family-base: "Lato" !default;
+$font-family-headings: 'Caveat', cursive !default;
 $headings-color: $medium !default;
 $headings-small-color: $light !default;
 $lead-color: $headings-color !default;
@@ -116,10 +116,10 @@ $carousel-contrast-controls-size: 26px !default;
 $carousel-contrast-control-opacity: .25 !default;
 
 // carousel blur
-$carousel-blur-pagination-color: $white !default;
+$carousel-blur-pagination-color: #A2632A !default;
 $carousel-blur-pagination-size: 18px !default;
-$carousel-blur-text-color: $white !default;
-$carousel-blur-controls-color: $white !default;
+$carousel-blur-text-color: #A2632A !default;
+$carousel-blur-controls-color: #A2632A !default;
 $carousel-blur-controls-size: 40px !default;
 $carousel-blur-control-opacity: .15 !default;
 

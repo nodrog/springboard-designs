@@ -1,0 +1,141 @@
+---
+layout: default
+fixed_navigation: false
+nav: clients
+---
+
+<div id='main' role='main' style="margin-top:40px;">
+  <div id='main-content'>
+    <div class='container'>
+
+
+
+      <div class='row'>
+        <div class='col-md-push-9 col-sm-push-8 col-sm-4 col-md-3'>
+          <nav class='sidebar sidebar-fixed'>
+
+            <div class='sidebar-collapse collapse'>
+              <div class='box'>
+                <h3 class='title'>Info</h3>
+                <ul class='list-unstyled list-padded'>
+                  <li>
+                    <i class='fa fa-user text-contrast fa fa-fixed-width'></i> &nbsp;
+                    {{ page.client }}
+                  </li>
+                  <li>
+                    <i class='fa fa-calendar text-contrast fa fa-fixed-width'></i> &nbsp;
+                    {{ page.date }}
+                  </li>
+                </ul>
+              </div>
+              <div class='box'>
+                <h3 class='title'>Services</h3>
+                <ul class='list-unstyled list-padded'>
+                  {% for cat in page.categories %}
+                  <li><i class='fa fa-check text-contrast fa fa-fixed-width'></i>&nbsp;{{cat}}</li>
+                  {% endfor %}
+                </ul>
+              </div>
+              <div class='box'>
+                <h3 class='title'>Links</h3>
+                <ul class='list-unstyled list-padded'>
+                  <li><i class='fa fa-user text-contrast fa fa-fixed-width'></i> &nbsp; What we do</li>
+                  <li><i class='fa fa-calendar text-contrast fa fa-fixed-width'></i> &nbsp; other case studies</li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class='col-md-pull-3 col-sm-pull-4 col-sm-8 col-md-9'>
+          <div class='row'>
+            <div class='col-sm-12'>
+              <h2 class='no-mg-t'>{{ page.title }} <div class="" style="font-size:35px; font-family: 'Caveat', cursive;">{{page.sub_title}}</div></h2>
+              <p class='lead lead-sm'>{{ page.intro }}</p>
+              <div class='row'>
+                <div class='col-sm-12'>
+
+
+
+                  <div class='hero-carousel carousel carousel-auto carousel-blur carousel-blur-pagination flexslider' id='carousel-case-study'>
+                    <div class='carousel-inner'>
+                      <ul class="slides">
+                        {% for slider in page.images %}
+
+                        <li class='item'>
+                          {% img {{slider}} class:'img-responsive img-rounded center-block' width:848 height:364 %}
+                        </li>
+                      {% endfor %}
+                      </ul>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+              <br/><br/>
+              {{ page.sub }}
+            </div>
+          </div>
+
+
+
+
+
+
+
+          <div class='row'>
+
+
+            <div class='col-sm-12'>
+              <div class='page-header page-header-with-icon'>
+                <i class='fa fa-star'></i>
+                <h2>
+                  More Case Studies
+                </h2>
+              </div>
+              <div class='row portfolio-boxes'>
+                <div class='carousel carousel-default slide carousel-auto' id='carousel-related-work'>
+                  <div class='carousel-inner'>
+
+                    {% assign case_studies = site.data.case_studies %}
+
+                    {% assign rows = case_studies.size | divided_by: 3.0 | ceil %}
+
+                    {% for i in (1..rows) %}
+                      {% assign offset = forloop.index0 | times: 3 %}
+                      <div class='item{% if forloop.first %} active{% endif %}'>
+                        {% for case_study in case_studies limit:3 offset:offset %}
+                          <div class='col-sm-4 portfolio-box'>
+                            <a href='/{{ case_study.title | datapage_url: 'case-studies' }}'>
+                              <div class='image-link'>
+                                <i class='fa fa-search'></i>
+                                {% img {{case_study.latest_image}} class:'img-responsive img-rounded center-block' width:262 height:171 %}
+                              </div>
+                              <h3 class='title'>{{ case_study.title }}</h3>
+                              <p class='category'>{{ case_study.categories }}</p>
+                            </a>
+                          </div>
+                        {% endfor %}
+                      </div>
+                    {% endfor %}
+
+                  </div>
+                  <ol class='carousel-indicators'>
+                    <li class='active' data-slide-to='0' data-target='#carousel-related-work'></li>
+                    <li data-slide-to='1' data-target='#carousel-related-work'></li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='fade' id='scroll-to-top'>
+    <i class='fa fa-chevron-up'></i>
+  </div>
+</div>

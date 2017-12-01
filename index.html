@@ -7,51 +7,43 @@ nav: home
 
 <div id='main' role='main'>
   <!-- / carousel blur -->
-  
-  {% include main_slider.html %}
+  <div id="home">
+    {% include main_slider.html %}
+  </div>
 
-
-  <div id='main-content' style="padding-top:0px; margin-top:0px;">
+  <div id='main-content'>
     <div class='container'>
-    
-      <div class='row'>
-        <div class='col-sm-12'>
 
-          
+      <div id="about" class='row'>
+        <div class='col-sm-12'>
           {% include about.html %}
+        </div>
+      </div>
+
+      <div id="services" class='row'>
+        <div class='col-sm-12'>
           {% include services.html %}
-
-        </div>
-      </div>
-      
-      <div class='row'>
-        <div class='col-sm-12'>
-          
-          {% include solutions.html %}
-
-        </div>
-      </div>
-
-      <div class='row'>
-        <div class='col-sm-12'>
-
-          {% include latest_case_studies.html %}
-      
         </div>
       </div>
 
 
 
-      <div class='row'>
+      <!-- <div class='row'>
+        <div class='col-sm-12'>{% include solutions.html %}</div>
+      </div> -->
+
+      <div id="process" class='row'>
         <div class='col-sm-12'>
-          
           {% include processes.html %}
-
         </div>
-      </div>      
+      </div>
 
+      <div class='row'>
+        <div class='col-sm-12'>
+          {% include latest_case_studies.html %}
+        </div>
+      </div>
 
-      
     </div>
   </div>
   <div class='fade' id='scroll-to-top'>

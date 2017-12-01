@@ -23,13 +23,13 @@
     margin-top: 0;
 
     a.navbar-brand {
-      background-image: url(asset_path('logo-green-header.png')) !important;
+      background-image: url(asset_path('logo-gold-header.png')) !important;
     }
 
     &.header--default {
       background: #fffred;
       // border-bottom: solid 1px $white;
-      
+
       .navbar-default,
       .navbar-default.navbar-collapsed-sm {
         .navbar-nav {
@@ -89,7 +89,7 @@
   &.header--visible {
     @include transition-property(margin-top);
     @include transition-duration(0.5s);
-    background-color: white; 
+    background-color: white;
     border-bottom: 2px solid #eaedf2;
     margin-top: 91px;
   }

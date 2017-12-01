@@ -28,7 +28,7 @@ markdown: kramdown
 sass:
   style: compressed
 
-gems: 
+gems:
   - jekyll-assets
   - jekyll-seo-tag
   - jekyll-coffeescript
@@ -55,12 +55,20 @@ assets:
     - _assets/js/jednotka/plugins/
     - _assets/fonts/
     - _assets/fonts/font-awesome/
-  digest: true        
+  digest: true
   compress:
     css: true
     js: true
 
-anenta: 
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+page_gen:
+  - data: 'case_studies'
+    template: 'case_study'
+    name: 'title'
+    dir: 'case-studies'
+
+
+anenta:
   company_name: Springboard Designs Ltd
   web_address: https://www.springboarddesigns.co.uk
   int_telephone: +44 (0)20 8355 0202

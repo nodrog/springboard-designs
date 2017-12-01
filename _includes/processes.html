@@ -1,26 +1,30 @@
-<div class='page-header page-header-with-icon'>
-  <i class='fa fa-refresh'></i>
-  <h2>{{ site.data.general.processes.title}}</h2>
-</div>
-<div class='row'>
-  <div class='col-sm-12'>
-    <ul class='circle-stats'>
 
-      {% for process in site.data.processes %}
-        
-        <li class='circle-stat-small'>
-          <div class='circle-stat-wrapper'>
-            <input class='hidden' data-fgColor='#8dc153' data-readOnly='true' data-stat='circle' data-thickness='0.1' type='text' value='{{ process.percentage_value }}'>
-            <p class='percent'>{{ process.step_number }}</p>
-          </div>
-          <h3 class='title'>{{ process.name }}</h3>
-          <div class='description'>
-            {{ process.content }}
-          </div>
-        </li>
-
-      {% endfor %}
-
-    </ul>
+  <div class='page-header page-header-with-icon'>
+    <i class='fa fa-star'></i>
+    <h2>{{ site.data.general.processes.title}}</h2>
   </div>
-</div>
+
+  <div class='row'>
+    <div class='col-sm-12'>
+      <ul class='circle-stats'>
+
+        {% for process in site.data.processes %}
+
+          <li class='circle-stat-small'>
+            <div class='circle-stat-wrapper'>
+              <input class='hidden' data-fgColor='#985825' data-readOnly='true' data-stat='circle' data-thickness='0.1' type='text' value='{{ process.percentage_value }}'>
+              <p class='percent'>{{ process.step_number }}</p>
+            </div>
+            <h3 class='title'>{{ process.name }}</h3>
+            <div class='description'>
+              {{ process.content }}
+            </div>
+          </li>
+
+        {% endfor %}
+
+      </ul>
+    </div>
+  </div>
+
+

@@ -1,23 +1,27 @@
-about: 
-  title: About Springboard Designs
-  intro: about us text......
+about:
+  title: Springboard Designs
+  intro: "For over 15 years we’ve been working with clients to create and deliver innovative high quality products and packaging within budget to increase sales and brand awareness. Our clients are global brands in the retail, publishing, and pharmaceutical sectors. We are totally focussed on creativity: believing you don’t need a huge budget to create a successful product. Whether it’s a promotional product, retail product, packaging or print our products and designed to make an impact, engage your customer and retain them. We are a full service resource – from design concept to warehousing and fulfilment, delivering globally to meet your needs."
 
-services: 
+services:
   title: Services
 
 solutions:
   title: Our Solutions
 
-processes: 
+processes:
   title: Our process
 
 latest_case_studies:
   title: Latest Case Studies
   caption: Phasellus malesuada sapien non orci semper gravida.
 
-footer: 
-  about: Integer vulputate porta augue, sit amet interdum tellus commodo et. Sed volutpat neque vel turpis ultrices sini bibendum. Aliquam quis malesuada.
-  address: 44 Franche Court Road<br/>London SW17 0JU<br/>United Kingdom
+footer:
+  about: Springboard Designs specialise in creating promotional and retail branded merchandise and print for consumer sales and marketing activity.
+  address: Caroline Aspinall, 44 Franche Court Road<br/>London SW17 0JU<br/>United Kingdom
   telephone: 020 8355 0202
   email: caroline@springboarddesigns.co.uk
   web_address: www.springboarddesigns.co.uk
+  copyright: Copyright &copy; 2017 Springboard Designs
+  company_registration: Registered in England and Wales No. 8988968
+  vat: VAT No.220 0565 61
+

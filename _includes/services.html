@@ -1,26 +1,32 @@
 
-<div class='page-header page-header-with-icon'>
-  <i class='fa fa-star'></i>
-  <h2>{{ site.data.general.services.title}}</h2>
-</div>
+  <div class='page-header page-header-with-icon'>
+    <i class='fa fa-star'></i>
+    <h2>{{ site.data.general.services.title}}</h2>
+  </div>
 
 
-<div class='text-boxes'>
+  <div class='text-boxes'>
 
-  {% for service in site.data.services %}
-    <div class='row text-box'>
-      <div class='col-sm-6'>
-      {% img {{service.image}} class:'img-responsive center-block' width:340 height:188 %}
+    {% for service in site.data.services %}
+      <div class='row text-box'>
+        <div class='col-sm-6'>
+        {% img {{service.image}} class:'img-responsive center-block' width:340 height:188 %}
 
+        </div>
+        <div class='col-sm-6 holder'>
+          <h3 class='title'><a href="#">{{ service.name }}</a></h3>
+          {% assign word_count = service.content | number_of_words %}
+          <div class="less">{{ service.content | truncatewords: 50 }}</div>
+          <div class="more" style="display:none;">{{ service.content }}</div>
+          {%  if word_count > 50 %}
+            <a class='btn btn-contrast btn-bordered btn-sm show-more' href='#'>Read more</a>
+          {% endif %}
+        </div>
       </div>
-      <div class='col-sm-6'>
-        <h3 class='title'><a href="#">{{ service.name }}</a></h3>
-        {{ service.content }}
-        <a class='btn btn-contrast btn-bordered btn-sm' href='#'>Read more</a>
-      </div>
-    </div>
-    <hr>
-  {% endfor %}
+      {% unless forloop.last %}
+        <br/><br/><br/>
+      {% endunless %}
+    {% endfor %}
 
-</div>
-  
+  </div>
+
