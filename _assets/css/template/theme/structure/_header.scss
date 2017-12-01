@@ -22,12 +22,14 @@
     width: 100%;
     margin-top: 0;
 
+    border-bottom:0px solid !important;
+
     a.navbar-brand {
       background-image: url(asset_path('logo-gold-header.png')) !important;
     }
 
     &.header--default {
-      background: #fffred;
+      background: #95DAD7;
       // border-bottom: solid 1px $white;
 
       .navbar-default,
@@ -90,7 +92,7 @@
     @include transition-property(margin-top);
     @include transition-duration(0.5s);
     background-color: white;
-    border-bottom: 2px solid #eaedf2;
+    border-bottom: 2px solid #95DAD7;
     margin-top: 91px;
   }
 }

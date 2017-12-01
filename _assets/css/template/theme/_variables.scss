@@ -45,7 +45,7 @@ $zindex-minimum: 1000 !default;
 $zindex-carousel-controls: $zindex-minimum - 1 !default;
 
 // common
-$body-bg: $dark !default;
+$body-bg: #89D5D3 !default;
 $border-radius-base: 5px !default;
 $image-border-radius: $border-radius-base * 2 !default;
 $transition-duration-base: 300ms !default;
@@ -132,13 +132,13 @@ $carousel-image-controls-size: 50px !default;
 $carousel-image-control-opacity: .10 !default;
 
 // footer
-$footer-bg: $medium !default;
-$footer-color: #aab2bd !default;
-$footer-title-color: $white !default;
-$footer-icon-color: $contrast !default;
+$footer-bg: #95DAD7 !default;
+$footer-color: #203A39 !default;
+$footer-title-color: red !default;
+$footer-icon-color: #559694 !default;
 $footer-input-background: $body-bg !default;
 $footer-input-color: $footer-color !default;
-$footer-link-color: $white !default;
+$footer-link-color: #325957 !default;
 
 // quotes (testimonials)
 $quotes-color: $light !default;

@@ -147,7 +147,6 @@
 
   #footer-copyright {
     background-color: $body-bg;
-    color: lighten($body-bg, 15%);
     padding: 20px 0;
     text-align: center;
 
@@ -157,6 +156,7 @@
 
     .copyright {
       margin: 5px 0 0 0;
+      color: #66B5B3;
 
       @include sm-plus {
         float: left;
