@@ -25,11 +25,11 @@
     border-bottom:0px solid !important;
 
     a.navbar-brand {
-      background-image: url(asset_path('logo-gold-header.png')) !important;
+      background-image: url(asset_path('logo-grey-header.png')) !important;
     }
 
     &.header--default {
-      background: #95DAD7;
+      background: #424c4e;
       // border-bottom: solid 1px $white;
 
       .navbar-default,
@@ -38,7 +38,7 @@
           a {
             span {
               @include text-shadow(none);
-              color: $medium;
+              color: $body-bg;
 
               @include sm-minus {
                 color: $white;
@@ -48,7 +48,7 @@
             &:hover,
             &:focus {
               span {
-                color: $medium;
+                color: $white;
 
                 @include sm-minus {
                   color: $white;
@@ -92,8 +92,21 @@
     @include transition-property(margin-top);
     @include transition-duration(0.5s);
     background-color: white;
-    border-bottom: 2px solid #95DAD7;
+    border-bottom: 2px solid #424c4e;
     margin-top: 91px;
+
+    a.navbar-brand {
+      background-image: url(asset_path('logo-white-header.png')) !important;
+    }
+    a {
+              span {
+                color: red;
+
+                @include sm-minus {
+                  color: red;
+                }
+              }
+            }
   }
 }
 

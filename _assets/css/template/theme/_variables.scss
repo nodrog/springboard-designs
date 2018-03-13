@@ -63,8 +63,8 @@ $panel-icon-color: $white !default;
 $panel-icon-border: 10px !default;
 
 // typography
-$font-family-base: "Lato" !default;
-$font-family-headings: 'Caveat', cursive !default;
+$font-family-headings: 'Libre Baskerville' !default;
+$font-family-base: "Source Sans Pro" !default;
 $headings-color: $medium !default;
 $headings-small-color: $light !default;
 $lead-color: $headings-color !default;
@@ -116,10 +116,10 @@ $carousel-contrast-controls-size: 26px !default;
 $carousel-contrast-control-opacity: .25 !default;
 
 // carousel blur
-$carousel-blur-pagination-color: #A2632A !default;
+$carousel-blur-pagination-color: $body-bg !default;
 $carousel-blur-pagination-size: 18px !default;
-$carousel-blur-text-color: #A2632A !default;
-$carousel-blur-controls-color: #A2632A !default;
+$carousel-blur-text-color: $body-bg !default;
+$carousel-blur-controls-color: $body-bg !default;
 $carousel-blur-controls-size: 40px !default;
 $carousel-blur-control-opacity: .15 !default;
 
@@ -132,7 +132,7 @@ $carousel-image-controls-size: 50px !default;
 $carousel-image-control-opacity: .10 !default;
 
 // footer
-$footer-bg: #95DAD7 !default;
+$footer-bg: #424c4e !default;
 $footer-color: #203A39 !default;
 $footer-title-color: red !default;
 $footer-icon-color: #559694 !default;

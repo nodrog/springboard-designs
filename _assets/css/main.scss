@@ -16,3 +16,8 @@
 body {
   position: relative !important;
 }
+
+
+.btn-contrast.btn-bordered.show-more {
+  border-color: $body-bg;
+}

@@ -1,8 +1,12 @@
 /*------------------------------------*\
     $TYPOGRAPHY
 \*------------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=Roboto:100,400,300,500);
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+// @import url("http://fonts.googleapis.com/css?family=Roboto:100,400,300,500");
+// @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+
+// @import url('https://fonts.googleapis.com/css?family=Libre+Baskerville');
+// @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+
 
 body {
   font-family: $font-family-base;
@@ -10,7 +14,7 @@ body {
 }
 
 .lead {
-  font-family: $font-family-headings;
+  font-family: $font-family-base;
   font-size: 26px;
   line-height: 39px;
   font-weight: 300;
