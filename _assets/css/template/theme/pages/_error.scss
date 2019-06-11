@@ -21,7 +21,7 @@ html {
 }
 
 body.error-page {
-  background: image-url("bg_fullsize.jpg") no-repeat center center fixed;
+  // background: image-url("bg_fullsize.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -31,7 +31,7 @@ body.error-page {
 
   // The url is relative to the document, not to the css file!
   // Prefer absolute urls to avoid confusion.
-  -ms-behavior: url("/assets/images/ie/backgroundsize.min.htc");
+  // -ms-behavior: url("/assets/images/ie/backgroundsize.min.htc");
 
   #wrapper {
     padding: 20px 0;

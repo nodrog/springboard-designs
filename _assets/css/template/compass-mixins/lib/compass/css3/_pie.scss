@@ -18,7 +18,7 @@ $pie-default-approach: relative !default;
 // This should be root-relative to your web server
 // relative assets don't work. It is recommended that
 // you set this yourself.
-$pie-behavior: stylesheet-url("PIE.htc") !default;
+// $pie-behavior: stylesheet-url("PIE.htc") !default;
 
 // When using the z-index approach, the
 // first ancestor of the PIE element at

@@ -38,7 +38,7 @@ nav: clients
           <a href='{{ client.link }}'>
             <div class='image-link'>
               <i class='fa fa-eye'></i>
-              {% img {{client.image}} class:'img-responsive img-rounded center-block' width:263 height:171 %}
+              {% asset {{client.image}} class:'img-responsive img-rounded center-block' width:263 height:171 %}
             </div>
             <!-- <h3 class='title'>{{ client.name }}</h3> -->
             <p class='category'>
@@ -46,7 +46,7 @@ nav: clients
             </p>
           </a>
           {% else %}
-            {% img {{client.image}} class:'img-responsive img-rounded center-block' width:263 height:171 %}
+            {% asset {{client.image}} class:'img-responsive img-rounded center-block' width:263 height:171 %}
             <p class='category'>
               {{ client.categories | array_to_sentence_string }}
             </p>

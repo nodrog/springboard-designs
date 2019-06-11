@@ -17,7 +17,7 @@ end
 # Happy Jekylling!
 # gem "jekyll", "3.3.0"
 gem "jekyll", "3.6.3"
-# gem "sprockets", ">= 3.7.2"
+gem 'sprockets', '~>3.7.2'
 
 gem "minima", "~> 2.0"
 

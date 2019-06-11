@@ -28,7 +28,7 @@ markdown: kramdown
 sass:
   style: compressed
 
-gems:
+plugins:
   - jekyll-assets
   - jekyll-seo-tag
   - jekyll-coffeescript
@@ -36,6 +36,7 @@ gems:
 autowrite: true
 
 assets:
+
   sources:
     - _assets/
     - _assets/css/

@@ -55,7 +55,7 @@ nav: clients
                         {% for slider in page.images %}
 
                         <li class='item'>
-                          {% img {{slider}} class:'img-responsive img-rounded center-block' width:848 height:364 %}
+                          {% asset {{slider}} class:'img-responsive img-rounded center-block' width:848 height:364 %}
                         </li>
                       {% endfor %}
                       </ul>
@@ -101,7 +101,7 @@ nav: clients
                             <a href='/{{ case_study.title | datapage_url: 'case-studies' }}'>
                               <div class='image-link'>
                                 <i class='fa fa-eye'></i>
-                                {% img {{case_study.latest_image}} class:'img-responsive img-rounded center-block' width:262 height:171 %}
+                                {% asset {{case_study.latest_image}} class:'img-responsive img-rounded center-block' width:262 height:171 %}
                               </div>
                               <h3 class='title'>{{ case_study.title }}</h3>
                               <p class='category'>{{ case_study.categories }}</p>
