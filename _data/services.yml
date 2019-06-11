@@ -1,56 +1,44 @@
 - name: Account Management
-  content: <p>We only work with brands we love! So it comes quite naturally to us in finding the most suitable merchandise solution that reflects your brand, makes it stand out against the competition, engages your customer and retain them. The selection of the factory we use for prototypes and production is matched closely to client and product needs. Working as an extension of your team, with a personal and friendly service, from idea to delivery.</p>
+  content: <p>We find merchandise solutions that reflects your brand, make it stand out against the competition, engage your customer and retain them. Working as an extension of your team, with a personal and friendly service.</p>
   image: images/services/1.jpg
 
 - name: Creative Design Services
-  content: <p>We believe creativity is key. You don’t need a huge budget to create a successful product. We take product ideas and make them a reality - creating a sketch or a quick prototype. We understand sometimes there’s nothing like seeing a physical sample. The item needs to capture the essence of your brand and engage your target market whilst optimising budgets. We continually monitor trends to keep ideas up to date whilst making sure they are on brand, on trend, on budget ensuring the product is aesthetically consistent with the range for which it is intended.  All products are designed in our London office.</p>
+  content: <p>Creativity is key. We take product ideas and make them a reality - creating a sketch or a quick prototype; sometimes there’s nothing like seeing a physical sample. The item needs to capture the essence of your brand and engage your target market whilst optimising budgets. We continually monitor trends to keep ideas up to date ensuring the product is aesthetically consistent with the range for which it is intended. All items designed in house.</p>
   image: images/services/2.jpg
-
-
-- name: Logistics
-  content: '
-    <p>Your cargo is precious and needs to arrive safely. We offer a door to door service, using seafreight, airfreight road & rail. We search for the best possible prices using local knowledge from our global shipping partners at the time your goods are ready. Customs clearance, duty & VAT is all taken care of for you.</p>
-    <ul>
-      <li>Sea, Air, Road & rail transportation</li>
-      <li>Local agent used</li>
-      <li>Best price at time of departure</li>
-      <li>Overseas customs clearance</li>
-      <li>Door to door delivery</li>
-      <li>Cargo tracking</li>
-    </ul>
-  '
-  image: images/services/3.jpg
-
 
 - name: Quality Assurance & Ethical trading
   content: '
-  <p>We audit all factories every 2 years as standard or sooner if required. We visit them annually. We’ve worked with many of our factories for over 10 years so consider them our partners. We only factories accredited with ISO 9001 Quality Assurance and that have SA 8000 Environmental Assurance. We undertake During Production Inspections (DUPROs) and Final Random Inspections (FRIs) to agreed AQL levels to insure the quality is consistent with what has been ordered. Our partners in this area are SGS and Intertek.  </p>
+  <p>All factories are audited annually as standard. We’ve worked with many of our factories for over 10 years. We only use factories accredited with ISO 9001 Quality Assurance and SA 8000 Environmental Assurance. We undertake During Production Inspections (DUPROs) and Final Random Inspections (FRIs) to agreed AQL levels. Our partners in this area are SGS and Intertek.</p>
   <ul>
     <li>ISO 9001 Quality Assurance</li>
     <li>SA 8000 Environmental Assurance</li>
     <li>Member of the BPMA</li>
-    <li>Member of Sedex</li>
   </ul>
   '
   image: images/services/4.jpg
 
-
-- name: Procurement
-  content: <p>XYZ...</p>
-  image: images/services/5.jpg
+- name: Logistics
+  content: '
+    <p>We offer a door to door service and search best prices at the time your goods are ready. Shipping documents, duty & customs clearance are all taken care of.</p>
+    <ul>
+      <li>Sea, Air, Road & rail transportation</li>
+      <li>Best price at time of departure</li>
+      <li>Overseas customs clearance</li>
+      <li>Door to door delivery</li>
+    </ul>
+  '
+  image: images/services/3.jpg
 
 
 - name: Fulfilment
   content: '
     <p>Our warehouse in Ipswich is a 40,000 sq ft facility where we offer a fulfilment service and storage facilities. With a fully Customs Bonded and E.R.T.S. approved facility we can cater for all your requirements.</p>
     <ul>
-      <li>40,000 sq ft facility</li>
       <li>Customs bonded</li>
       <li>ERTS approved for import consolidation</li>
       <li>EDI stock information system</li>
       <li>Bar code scanning</li>
       <li>Pick and pack facilities</li>
-      <li>Cargo tracking</li>
     </ul>
   '
   image: images/services/6.jpg

@@ -11,24 +11,24 @@
   image_align: left
   text_align: right
   width: 30%
-  title: Creativity is key
-  content: "We are totally focussed on creativity: producing bespoke products & packaging to make an impact, engage and retain your customer"
+  title: Focussed on Creativity
+  content: "Producing bespoke products & packaging to make an impact, engage & retain your customer"
 
 - id: 043
   image: big043t.jpg
   image_align: left
   text_align: right
   width: 30%
-  title: A collaborative approach
-  content: Working alongside clients from design concept to warehouse & fulfilment services
+  title: Collaborative approach
+  content: Always working in partnership with clients & listening to objectives
 
 - id: 367
   image: big367t.jpg
   image_align: left
   text_align: right
   width: 40%
-  title: Happy factories
-  content: Ethical factories are selected to meet client and product requirements and are continually audited
+  title: Ethical factories
+  content: Selected to meet client and product requirements and continually audited
 
 - id: 320
   image: big320t.jpg
@@ -37,15 +37,5 @@
   width: 50%
   title: Global reach
   title_style: width:400px;
-  content: From small design details to global delivery XYZ….
-  content_style: width:400px;
-
-- id: 543
-  image: big543t.jpg
-  image_align: right
-  text_align: left
-  width: 50%
-  title: Happy clients
-  title_style: width:400px;
-  content: not sure on what should go here
+  content: A complete service from design concept to warehouse & fulfilment services, delivering globally
   content_style: width:400px;

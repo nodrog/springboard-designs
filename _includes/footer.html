@@ -2,24 +2,18 @@
   <div id='footer-main'>
     <div class='container'>
       <div class='row'>
+
         <div class='col-md-3 col-sm-6 info-box'>
           <div class='logo-container'>
             {% img 'logo-white-header.png' alt:'Springboard Designs' %}
           </div>
-          <p class='no-mg-b'>{{ site.data.general.footer.about }}</p>
-        </div>
+          <p class=''>{{ site.data.general.footer.about }}</p>
 
+          <br/>
 
-        <div class='col-md-1 col-sm-6 info-box social-box'>
-
-        </div>
-
-
-        <div class='col-md-4 col-sm-6 info-box'>
-          <div class='logo-container'></div>
           <div class='icon-boxes'>
             <div class='icon-box'>
-              <div class='icon icon-wrap'>
+              <div class='icon'>
                 <i class='fa fa-map-marker'></i>
               </div>
               <div class='content'>
@@ -27,7 +21,7 @@
               </div>
             </div>
             <div class='icon-box'>
-              <div class='icon icon-wrap'>
+              <div class='icon'>
                 <i class='fa fa-phone'></i>
               </div>
               <div class='content'>
@@ -35,18 +29,33 @@
               </div>
             </div>
             <div class='icon-box'>
-              <div class='icon icon-wrap'>
+              <div class='icon'>
                 <i class='fa fa-envelope'></i>
               </div>
               <div class='content'><a href="mailto:{{ site.data.general.footer.email }}">{{ site.data.general.footer.email }}</a></div>
             </div>
             <div class='icon-box'>
-              <div class='icon icon-wrap'>
+              <div class='icon'>
                 <i class='fa fa-globe'></i>
               </div>
               <div class='content'><a href="#">{{ site.data.general.footer.web_address }}</a></div>
             </div>
           </div>
+        </div>
+
+
+
+
+        <div class='col-md-4 col-sm-6 info-box'>
+          <div class='logo-container'></div>
+
+        </div>
+
+        <div class='col-md-4 col-sm-6 info-box text-right'>
+          <!-- <div class='logo-container'></div> -->
+
+          {% img 'caroline-headshot-lg.jpg' alt:'Carloine Aspinall' width:220 height:330 %}
+
         </div>
 
         <!-- <div class='col-md-3 col-sm-6 info-box'>
@@ -82,16 +91,16 @@
             {{ site.data.general.footer.vat | replace: ' ', '&nbsp;'}}
           </p>
           <div class='links'>
-            <!-- <a class='btn btn-circle btn-medium-light btn-sm' href='#'>
+            <a class='btn btn-circle btn-medium-light btn-sm' href='#'>
               <i class='fa fa-twitter text-dark'></i>
             </a>
-            <a class='btn btn-circle btn-medium-light btn-sm' href='#'>
+            <!-- <a class='btn btn-circle btn-medium-light btn-sm' href='#'>
               <i class='fa fa-dribbble text-dark'></i>
             </a>
             <a class='btn btn-circle btn-medium-light btn-sm' href='#'>
               <i class='fa fa-facebook text-dark'></i>
-            </a>
-            -->
+            </a> -->
+
           </div>
         </div>
       </div>

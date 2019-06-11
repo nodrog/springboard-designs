@@ -1,0 +1,53 @@
+- name: 'L’Occitane'
+  categories:
+    - Merchandise
+    - Print
+  image: 'images/clients/loccitane.png'
+  link: /case-studies/metal-key/
+
+- name: 'Jack Rogers'
+  categories:
+    - Packaging
+    - Print
+  image: 'images/clients/jackrogers.png'
+  link: '/case-studies/canvas-bags'
+
+- name: 'Les Couvent des Minime'
+  categories:
+    - Merchandise
+    - Packaging
+  image: 'images/clients/vouventmihimes.png'
+  link: /case-studies/pouches/
+
+- name: 'Sanctuary'
+  categories:
+    - Merchandise
+    - Print
+  image: 'images/clients/sancturary.png'
+  link: /case-studies/spa-accessories/
+
+- name: 'Astellas'
+  categories:
+    - Merchandise
+    - Packaging
+  image: 'images/clients/astellas.png'
+  link: false
+
+- name: 'Look Fabulous Forever'
+  categories:
+    - Packaging
+    - Print
+  image: 'images/clients/lff.png'
+  link: false
+
+- name: 'Melvita'
+  categories:
+    - Print
+  image: 'images/clients/melvita.png'
+  link: false
+
+- name: 'Yves Rocher'
+  categories:
+    - Merchandise
+  image: 'images/clients/yvesrocher.png'
+  link: false

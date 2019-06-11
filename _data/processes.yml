@@ -23,7 +23,7 @@
 
 - name: Production
   content: '
-    <p>Order confirmation & receipt of PO</p>
+    <p>Order confirmation</p>
     <p>Final artwork provided</p>
     <p>Carton & label confirmation</p>
     <p>Factory inspections (FRI & DUPRO)</p>
@@ -36,7 +36,7 @@
 - name: Delivery
   content: '
     <p>Palletisation</p>
-    <p>Delivery booking in</p>
+    <p>Booking in</p>
     <p>Delivery to warehouse  </p>
   '
   step_number: 4
