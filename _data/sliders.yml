@@ -4,7 +4,7 @@
   text_align: left
   width: 30%
   title: Designing, sourcing and delivering
-  content: Springboard Designs specialise in creating promotional and retail branded merchandise and print for consumer sales and marketing activity
+  content: Merchandise, print and packaging for consumer sales and marketing activity
 
 - id: 466
   image: big466t.jpg
@@ -12,7 +12,7 @@
   text_align: right
   width: 30%
   title: Focussed on Creativity
-  content: "Producing bespoke products & packaging to make an impact, engage & retain your customer"
+  content: "Bespoke products designed to make an impact, engage and retain customers"
 
 - id: 043
   image: big043t.jpg
@@ -20,7 +20,7 @@
   text_align: right
   width: 30%
   title: Collaborative approach
-  content: Always working in partnership with clients & listening to objectives
+  content: Working in partnership with clients
 
 - id: 367
   image: big367t.jpg
@@ -28,7 +28,7 @@
   text_align: right
   width: 40%
   title: Ethical factories
-  content: Selected to meet client and product requirements and continually audited
+  content: Selected to meet client and product requirements
 
 - id: 320
   image: big320t.jpg
@@ -37,5 +37,5 @@
   width: 50%
   title: Global reach
   title_style: width:400px;
-  content: A complete service from design concept to warehouse & fulfilment services, delivering globally
+  content: From design concept to warehouse and fulfilmet services, delivered globally
   content_style: width:400px;

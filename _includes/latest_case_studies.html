@@ -15,10 +15,10 @@
   <div class='col-sm-3 col-xs-6 no-mb-t-xs portfolio-box'>
     <a class='image-link' href='{{ case_study.title | datapage_url: 'case-studies' }}'>
       <i class='fa fa-search'></i>
-      {% asset {{case_study.latest_image}} class:'img-responsive img-rounded center-block' width:262 height:262 %}
+      {% asset {{case_study.latest_image}} class='img-responsive img-rounded center-block' %}
     </a>
     <h3 class='title'>{{ case_study.title }}</h3>
-    <p class='category'>{{ case_study.categories }}</p>
+    <p class='client'>{{ case_study.client }}</p>
   </div>
 
   {% endfor %}

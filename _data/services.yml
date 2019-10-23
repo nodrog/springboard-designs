@@ -1,20 +1,14 @@
 - name: Account Management
-  content: <p>We find merchandise solutions that reflects your brand, make it stand out against the competition, engage your customer and retain them. Working as an extension of your team, with a personal and friendly service.</p>
+  content: <p>Working as an extension of your team, with a personal and friendly service, finding solutions together. We work with you to find merchandise solutions that reflect your brand and make it stand out against the competition.</p>
   image: images/services/1.jpg
 
 - name: Creative Design Services
-  content: <p>Creativity is key. We take product ideas and make them a reality - creating a sketch or a quick prototype; sometimes there’s nothing like seeing a physical sample. The item needs to capture the essence of your brand and engage your target market whilst optimising budgets. We continually monitor trends to keep ideas up to date ensuring the product is aesthetically consistent with the range for which it is intended. All items designed in house.</p>
+  content: <p>We understand the item needs to capture the essence of your brand and engage your target market whilst optimising budgets. We continually monitor trends ensuring the product is aesthetically consistent with the range for which it is intended. All items designed in house.</p>
   image: images/services/2.jpg
 
 - name: Quality Assurance & Ethical trading
-  content: '
-  <p>All factories are audited annually as standard. We’ve worked with many of our factories for over 10 years. We only use factories accredited with ISO 9001 Quality Assurance and SA 8000 Environmental Assurance. We undertake During Production Inspections (DUPROs) and Final Random Inspections (FRIs) to agreed AQL levels. Our partners in this area are SGS and Intertek.</p>
-  <ul>
-    <li>ISO 9001 Quality Assurance</li>
-    <li>SA 8000 Environmental Assurance</li>
-    <li>Member of the BPMA</li>
-  </ul>
-  '
+  content: <p>We’ve worked with many of our factories for over 10 years and audit them annually. They have to be accredited with ISO 9001 Quality Assurance and SA 8000 Environmental Assurance. We undertake Production Inspections to agreed AQL levels. Our partners in this area are SGS and Intertek.</p>
+
   image: images/services/4.jpg
 
 - name: Logistics
@@ -25,8 +19,7 @@
       <li>Best price at time of departure</li>
       <li>Overseas customs clearance</li>
       <li>Door to door delivery</li>
-    </ul>
-  '
+    </ul>'
   image: images/services/3.jpg
 
 
@@ -37,7 +30,6 @@
       <li>Customs bonded</li>
       <li>ERTS approved for import consolidation</li>
       <li>EDI stock information system</li>
-      <li>Bar code scanning</li>
       <li>Pick and pack facilities</li>
     </ul>
   '

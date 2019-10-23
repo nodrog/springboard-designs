@@ -16,9 +16,9 @@
         <div class='col-sm-6 holder'>
           <h3 class='title'><a href="#">{{ service.name }}</a></h3>
           {% assign word_count = service.content | number_of_words %}
-          <div class="less">{{ service.content | truncatewords: 50 }}</div>
+          <div class="less">{{ service.content | truncatewords: 1000 }}</div>
           <div class="more" style="display:none;">{{ service.content }}</div>
-          {%  if word_count > 50 %}
+          {%  if word_count > 1000 %}
             <a class='btn btn-contrast btn-bordered btn-sm show-more' href='#'>Read more</a>
           {% endif %}
         </div>

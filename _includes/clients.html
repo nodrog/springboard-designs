@@ -1,0 +1,26 @@
+<div class="page-header page-header-with-icon">
+      <h2>
+        Some of Our Clients
+      </h2>
+    </div>
+
+
+
+<div class="row">
+
+  {% for client in site.data.clients %}
+
+        <div class="col-sm-3">
+          {% if client.link %}
+          <a href='{{ client.link }}'>
+            {% asset {{client.image}} class='img-rounded center-block' %}
+          </a>
+          {% else %}
+            {% asset {{client.image}} class='img-rounded center-block' %}
+          {% endif %}
+        </div>
+
+    {% endfor %}
+
+
+</div>

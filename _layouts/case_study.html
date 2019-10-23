@@ -19,21 +19,22 @@ nav: clients
                 <h3 class='title'>Info</h3>
                 <ul class='list-unstyled list-padded'>
                   <li>
-                    <i class='fa fa-user text-contrast fa fa-fixed-width'></i> &nbsp;
-                    {{ page.client }}
+                    <!-- <i class='fa fa-user text-contrast fa fa-fixed-width'></i> &nbsp; -->
+                    <div class="text-muted"><small>Sector</small></div>
+                    <div>{{ page.sector }}</div>
                   </li>
+
                   <li>
-                    <i class='fa fa-calendar text-contrast fa fa-fixed-width'></i> &nbsp;
-                    {{ page.date }}
+                    <!-- <i class='fa fa-user text-contrast fa fa-fixed-width'></i> &nbsp; -->
+                    <div class="text-muted"><small>Material</small></div>
+                    <div>{{ page.material }}</div>
                   </li>
-                </ul>
-              </div>
-              <div class='box'>
-                <h3 class='title'>Services</h3>
-                <ul class='list-unstyled list-padded'>
-                  {% for cat in page.categories %}
-                  <li><i class='fa fa-check text-contrast fa fa-fixed-width'></i>&nbsp;{{cat}}</li>
-                  {% endfor %}
+
+                  <li>
+                    <!-- <i class='fa fa-user text-contrast fa fa-fixed-width'></i> &nbsp; -->
+                    <div class="text-muted"><small>Important factors</small></div>
+                    <div>{{ page.important_factors }}</div>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -101,7 +102,7 @@ nav: clients
                             <a href='/{{ case_study.title | datapage_url: 'case-studies' }}'>
                               <div class='image-link'>
                                 <i class='fa fa-eye'></i>
-                                {% asset {{case_study.latest_image}} class:'img-responsive img-rounded center-block' width:262 height:171 %}
+                                {% asset {{case_study.latest_image}} class='img-responsive img-rounded center-block' width:262 height:171 %}
                               </div>
                               <h3 class='title'>{{ case_study.title }}</h3>
                               <p class='category'>{{ case_study.categories }}</p>

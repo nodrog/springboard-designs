@@ -1,193 +1,150 @@
 - title: 'Metal key'
   sub_title: 'a clever and covetable accessory'
   client: 'L’Occitane'
-  date: January 2017
-  categories:
-    - Merchandise
-    - Print
   latest_image: 'images/case_studies/1/intro.jpg'
   latest: true
-  intro: 'Even a worldwide phenomenon needs a little support act. L’Occitane’s award winning Shea Butter
-handcream is in no doubt a global best seller but we couldn’t help notice the metal tubes begin to
-look a little dented and jaded from first use so we approached L’Occitane with an exclusive design
-for them.'
+  intro: '
+    A clever and coveted retail accessory that slides on to the base of all L’Occitane handcreams and twists up.
+    <p>Designed to help the customer get every last bit of handcream out of the tube and keep it looking dent free. Designed in house by our creative team. Patent pending.</p>
+  '
   images:
     - case_studies/1/028.jpg
     - case_studies/1/045.jpg
     - case_studies/1/067.jpg
     - case_studies/1/066.jpg
-  sub: '
-    <p>We designed a clever key which slides on to the base of their handcreams, and twists up to help the
-customer get every last bit of their favourite cream out, and keeping the tube looking dent free.
-Having identified best materials fit for purpose, in budget and carefully identifying potential factories
-we began technical drawings and sampling with 3 factories before final selection. As it need to fit a
-range of different sized handcreams weight was also an important factor. Designed in house by our
-creative team with a patent pending. Currently retailing in every corner of the world.</p>
-  '
+  sub: ''
+  sector: Retail
+  material: zinc alloy
+  important_factors: material, weight, size
 
-- title: 'Make-up acceessories'
+- title: 'Make-up accessories'
   sub_title: 'fever is here... and, oh boy did we need it!'
-  client: 'tote'
-  date: January 2017
-  categories:
-    - Merchandise
-    - Print
+  client: 'Look Fabulous Forever'
   latest_image: 'images/case_studies/2/intro.jpg'
   latest: true
-  intro: 'Every so often we come across a brand and feel extremely lucky to be working with them. Set up by
-the inspirational Tricia Cusden, Look Fabulous Forever is a relative newcomer to the premium make-
-up industry and has made a huge impact, taking on a well-established market with fresh eyes and
-developing make-up and skincare specifically for an older generation of women.'
+  intro: '
+    A range of pouches, brush rolls, and accessories to support Look Fabulous Forever core make up line.
+    <p>The styles and shapes were designed with clean lines in modern fabrics, to hold specific products, all in keeping with the brand.</p>
+    <p>Products needed to be suitable for use as packaging, a stand a-lone retail item or as a GWP.</p>
+  '
   images:
     - case_studies/2/141.jpg
     - case_studies/2/138.jpg
     - case_studies/2/145.jpg
     - case_studies/2/485.jpg
-  sub: '
-    <p>Our brief was to develop a range of tote bags, pouches and accessories to support their core offer.
-Designing styles and shapes with clean lines in modern fabrics, to hold specific products, the items
-needed to be in keeping with their products and be flexible for use as packaging, a stand a-lone retail
-item or used as GWP on Produced in our SA8000 and ISO9002 to meet all standards this newcomer
-wanted for high quality items.</p>
-  '
+  sub: ''
+  sector: Retail & GWP
+  material: Microfibre
+  important_factors: clean lines, durability
 
-- title: 'Canvas bags'
+- title: 'Shoulder bag'
   sub_title: 'and more, from NYC'
-  client: 'Jack Rogers'
-  date: January 2017
-  categories:
-    - Merchandise
-    - Print
+  client: 'Astellas'
   latest_image: 'images/case_studies/3/intro.jpg'
   latest: true
-  intro: 'When we were approached by Jack Rogers in the US to design and produce a range of simple stylish
-brightly coloured bags to emulate the youth and heritage of the brand we didn’t hesitate.'
+  intro: '
+    A range of brightly coloured bags and pouches created to emulate the youth and heritage of the Jack Rogers brand. Designed in house.
+    <p>Of importance was using a sustainable cotton canvas and eco-friendly dyes. The end result was a large branded tote, a cute duster bag, and a simple pouch with contrasting zipper and ribbon pull.  </p>
+  '
   images:
     - case_studies/3/323.jpg
     - case_studies/3/318.jpg
     - case_studies/3/320.jpg
-  sub: '
-    <p>Initially needed as a promotional item and later as a retail item budget and quality were of real
-importance as well as using sustainable cotton canvas and eco-friendly dyes. The end result was a
-large branded eyecatching tote, a cute duster bag, and simple pouch with a contrasting zipper and
-ribbon pull. Nothing beats your customer being a walking advertisement for your brand. We
-understand this one is currently making several appearances on the streets of NYC.</p>
-  '
+  sub: ''
+  sector: GWP
+  material: Cotton Canvas
+  important_factors: Azo free dyes
 
-- title: 'Pouches'
+- title: 'Wooden accessories'
   sub_title: 'skincare doesn’t get much better than this'
   client: 'Les Couvent des Minime'
-  date: January 2017
-  categories:
-    - Merchandise
-    - Print
   latest_image: 'images/case_studies/4/intro.jpg'
   latest: true
-  intro: 'Over the last 5 years we have worked alongside Les Couvent des Minimes’ marketing team
-designing, sourcing and manufacturing items to support their brand and emulate the beautiful
-classic bodycare, facecare and scents that they supply.'
-  images:
-    - case_studies/4/499.jpg
-    - case_studies/4/159.jpg
-    - case_studies/4/164.jpg
-  sub: '
-    <p>They came to use requesting a full years supply of premiums and incentives for use across a number
-of sectors. We recently delivered a hand towel, pouch, soap tray and comb to be. The handtowel
-and pouch needed to be made from recycled cotton, undyed and simple in style. The comb and soap
-tray needed to be from a sustainable source (FSC), a soft wood but that would withstand everyday
-use. They were used to incentive the customers to encourage purchase and offer a botanical bath
-and skincare experience in the home environment: a relaxing escape from reality.</p>
+  intro: '
+    These wooden items were requested by Le Couvent des Minimes as part of a range for a full year supply of premiums and incentives for use across a number of sectors.
+    <p>The comb and soap tray were made from a 100% FSC certified wood, a soft wood but one that would withstand everyday use. The hand towel and pouch were made from undyed recycled cotton, and simple in style. All products were designed to support the core values of the brand and enhance the consumers experience when using this natural botanical range in a home environment.</p>
   '
+  images:
+    - case_studies/4/159.jpg
+    - case_studies/4/499.jpg
+    - case_studies/4/164.jpg
+  sub: ''
+  sector: Various
+  material: Wood
+  important_factors: FSC certified wood
 
 
 - title: 'Corporate giveaway'
   client: 'Vesicare'
-  date: January 2017
-  categories:
-    - Merchandise
-    - Print
   latest_image: 'images/case_studies/5/intro.jpg'
   latest: true
-  intro: 'The giveaway premiums for the pharmacutical market has changed dramatically over the last 5
-years. But we don’t see why you can’t inject some creativity into off the shelf items. Promoting a
-bladder control drug called Vesicare might have made us smile initially, but this brief demanded
-several serious promotional items to make it stand out in a crowded market place and make
-delegates remember it! Our creative team came up with the ‘Bladder bag’ which proved so popular
-it was re-ordered 3 years in a row. The off the shelf items ranges from computer mice, travel pillows,
-cooling eyemasks, Each item was XYZ.'
+  intro: '
+    The corporate giveaways Astellas requested had to be made against strict brand guidelines and regulations within the pharmaceutical sector.
+    <p>The bright pink shoulder bag was our answer to a creative brief for the Vesicare drug. It needed to be a memorable giveaway and raise a smile whilst being useful for delegates as a bag. It proved so popular it was re-ordered 3 years in a row. Accompanying branded items were also requested.</p>
+  '
   images:
     - case_studies/5/375.jpg
     - case_studies/5/365.jpg
     - case_studies/5/367.jpg
     - case_studies/5/394.jpg
-  sub: '
-    <p></p>
-  '
+  sub: ''
+  sector: Corporate giveaway
+  material: microfiber, nylon
+  important_factors: strict brand guidelines
 
 - title: 'Spa accessories'
   client: 'Sanctuary'
-  date: January 2017
-  categories:
-    - Merchandise
-    - Print
   latest_image: 'images/case_studies/6/intro.jpg'
   latest: true
-  intro: 'We’ve been producing items for The Sanctuary for many years now XYZ.'
+  intro: '
+    We’ve produced a variety of accessories for the Sanctuary over the years for use in their Christmas gift sets.
+    <p>Always manufactured to a high standard with price being an important factor but also addressing market trends and ensuring maximum impact on shelf.</p>
+  '
   images:
     - case_studies/6/295.jpg
     - case_studies/6/305.jpg
     - case_studies/6/124.jpg
     - case_studies/6/120.jpg
-  sub: '
-    <p></p>
-  '
+  sub: ''
+  sector: retail
+  material: cotton, ramie
+  important_factors: price and shelf impact
 
 - title: 'Tin boxes'
   sub_title: '150 year celebration at John Lewis with L’Occitane'
-  client: 'L’Occitane'
-  date: January 2017
-  categories:
-    - Merchandise
-    - Print
+  client: 'John Lewis'
   latest_image: 'images/case_studies/7/intro.jpg'
   latest: true
-  intro: 'To mark this iconic department stores 150 th anniversary we were approached by them to collaborate
-with L’Occitane on an exclusive set of tin boxes. The importance was in the colour because these
-items were to sit alongside many others in store. XYZ'
+  intro: '
+    These commemorative tin boxes were a collaboration between L’Occitane and John Lewis to celebrate the department store 150th year anniversary.
+    <p>The tins had to sit alongside a range of different merchandise for this in store celebration so colours and brand guidelines were of significant importance.</p>
+  '
   images:
     - case_studies/7/440.jpg
     - case_studies/7/445.jpg
     - case_studies/7/442.jpg
     - case_studies/7/447.jpg
-  sub: '
-    <p></p>
-  '
+  sub: ''
+  sector: retail
+  material: aluminium tin
+  important_factors: strict colour guidelines
 
 
 - title: 'Hampers'
   sub_title: 'from Provence to Chelsea'
   client: 'L’Occitane'
-  date: January 2017
-  categories:
-    - Merchandise
-    - Print
   latest_image: 'images/case_studies/8/intro.jpg'
   latest: true
-  intro: 'As a brand with a rich Provencal heritage to convey, L’Occitane came to us with an open brief for
-Chelsea Flower Show for a retail set which had to hold a number of products, reflect their corre
-brand values and in keeping with their gold award garden whilst being an irresistible purchase to a
-typical CFS customer.'
+  intro: '
+    The hampers we continue to produce for L’Occitane convey their rich Provencal heritage and are unique to the market place.
+    <p>After discussion of materials and many prototypes, we selected the best factory to produce these handmade hampers in large quantities to exacting standards.</p>
+    <p>Design, colours, size specifications all managed by our in house design team. They continue to be sold through a variety of channels globally.</p>
+  '
   images:
     - case_studies/8/587.jpg
     - case_studies/8/562.jpg
     - case_studies/8/230.jpg
-  sub: '
-    <p>The hamper we created was a bespoke design after many prototypes. After discussing a variety of
-materials, L’Occitane chose paper straw raffia which was unique to the market place, on budget and
-could be produced in a variety of colours for future orders. The hamper closure to the top and
-orange &amp; white gingham ribbon in corporate colours with a detailed metal logo conveyed a gift filled
-with love from Provence to the consumer. Filled with their best selling products, it was a great way
-to introduce the brand to an associated audience, had huge strength as a brand recall tool and
-proved so successful a variety of mini hampers have been used in global marketing campaigns year
-after year.</p>
-  '
+  sub: ''
+  sector: various
+  material: recycled paper straw
+  important_factors: quality and branding
