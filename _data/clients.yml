@@ -10,14 +10,14 @@
     - Packaging
     - Print
   image: 'images/clients/jackrogers.png'
-  link: '/case-studies/canvas-bags'
+  link: '/case-studies/shoulder-bag'
 
 - name: 'Les Couvent des Minime'
   categories:
     - Merchandise
     - Packaging
   image: 'images/clients/vouventmihimes.png'
-  link: /case-studies/pouches/
+  link: /case-studies/wooden-accessories/
 
 - name: 'Sanctuary'
   categories:
