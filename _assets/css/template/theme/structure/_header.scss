@@ -1,40 +1,9 @@
 /*------------------------------------*\
     $HEADER
 \*------------------------------------*/
-#header {
-  position: relative;
-  z-index: $zindex-minimum;
 
-  $nav-collapsed-breakpoint: $screen-sm;
-  $nav-default: ".navbar-default.navbar-collapsed-sm";
-  @import "navigation";
-  $nav-collapsed-breakpoint: $screen-sm;
-  $nav-default: ".navbar-default.navbar-collapsed-md";
-  @import "navigation";
-
-  &.header--fixed {
-    @include transition-property(margin-top);
-    @include transition-duration(0.5s);
-
-    position: fixed;
-    top: -91px;
-    left: 0;
-    width: 100%;
-    margin-top: 0;
-
-    border-bottom:0px solid !important;
-
-    a.navbar-brand {
-      background-image: url(asset_path('logo-grey-header.png')) !important;
-    }
-
-    &.header--default {
-      background: #424c4e;
-      // border-bottom: solid 1px $white;
-
-
-      // Navigation Colors
-      .navbar-default,
+@mixin light-nav-colors {
+.navbar-default,
       .navbar-default.navbar-collapsed-sm {
         .navbar-nav {
           a {
@@ -63,7 +32,7 @@
           .open {
             a {
               span {
-                color: $medium;
+                color: $white;
 
                 @include sm-minus {
                   color: $white;
@@ -87,6 +56,53 @@
         @include box-shadow(0 0px 12px rgba(0,0,0,0.175));
         background-clip: initial;
       }
+}
+
+
+
+#header {
+  position: relative;
+  z-index: $zindex-minimum;
+
+  $nav-collapsed-breakpoint: $screen-sm;
+  $nav-default: ".navbar-default.navbar-collapsed-sm";
+  @import "navigation";
+  $nav-collapsed-breakpoint: $screen-sm;
+  $nav-default: ".navbar-default.navbar-collapsed-md";
+  @import "navigation";
+
+  &.header--no-move {
+    background: $background-color !important;
+    margin-bottom:70px !important;
+    a.navbar-brand {
+      background-image: url(asset_path('logo-green-header.png')) !important;
+    }
+    @include light-nav-colors;
+  }
+
+
+  &.header--fixed {
+    @include transition-property(margin-top);
+    @include transition-duration(0.5s);
+
+    position: fixed;
+    top: -91px;
+    left: 0;
+    width: 100%;
+    margin-top: 0;
+
+    border-bottom:0px solid !important;
+
+    a.navbar-brand {
+      background-image: url(asset_path('logo-grey-header.png')) !important;
+    }
+
+    &.header--default {
+      background: $background-color;
+      // border-bottom: solid 1px $white;
+      // Navigation Colors
+      @include light-nav-colors;
+
     }
   }
 
@@ -98,7 +114,7 @@
     margin-top: 91px;
 
     a.navbar-brand {
-      background-image: url(asset_path('logo-white-header.png')) !important;
+      background-image: url(asset_path('logo-green-header.png')) !important;
     }
     a {
               span {

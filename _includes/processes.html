@@ -11,8 +11,9 @@
         {% for process in site.data.processes %}
 
           <li class='circle-stat-small'>
+
             <div class='circle-stat-wrapper'>
-              <input class='hidden' data-fgColor='#89D5D3' data-readOnly='true' data-stat='circle' data-thickness='0.1' type='text' value='{{ process.percentage_value }}'>
+              <input class='hidden' data-fgColor='{{ site.data.general.colors.highlight }}' data-readOnly='true' data-stat='circle' data-thickness='0.1' type='text' value='{{ process.percentage_value }}'>
               <p class='percent'>{{ process.step_number }}</p>
             </div>
             <h3 class='title'>{{ process.name }}</h3>

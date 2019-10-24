@@ -1,4 +1,4 @@
-<header id='header' {% if page.fixed_navigation %} fixed="true" {% else %} style="background:#95DAD7; margin-bottom:70px;" {% endif %}>
+<header id='header' {% if page.fixed_navigation %} fixed="true" {% else %} class="header--no-move" {% endif %}>
   <div class='container'>
     <nav class='navbar navbar-collapsed-sm navbar-default' id='nav' role='navigation'>
       <div class='navbar-header'>
@@ -18,25 +18,20 @@
             </a>
           </li>
           <li>
-            <a href='/#about'><span>About</span></a>
+            <a href='{% if page.path != 'index.html' %}/{% endif %}#about'><span>About</span></a>
           </li>
           <li>
-            <a href='/#services'><span>Services</span></a>
+            <a href='{% if page.path != 'index.html' %}/{% endif %}#services'><span>Services</span></a>
           </li>
           <li>
-            <a href='/#process'><span>Process</span></a>
+            <a href='{% if page.path != 'index.html' %}/{% endif %}#process'><span>Process</span></a>
           </li>
-          <!--<li {% if page.nav == 'what-we-do' %} class='active' {% endif %}>
-            <a href='/what-we-do'>
-              <span>Solutions</span>
-            </a>
-          </li>-->
           <li>
-            <a href='/#case-studies'><span>Case Studies</span></a>
+            <a href='{% if page.path != 'index.html' %}/{% endif %}#case-studies'><span>Case Studies</span></a>
           </li>
 
           <li>
-            <a href='/#clients'><span>Clients</span></a>
+            <a href='{% if page.path != 'index.html' %}/{% endif %}#clients'><span>Clients</span></a>
           </li>
 
           <li>
@@ -47,3 +42,6 @@
     </nav>
   </div>
 </header>
+
+
+

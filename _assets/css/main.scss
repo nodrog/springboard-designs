@@ -1,11 +1,21 @@
+
 @charset "utf-8";
 
 // @import url(http://fonts.googleapis.com/css?family=Roboto:400,300,600,700,800);
 // @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800);
+//
+
+$highlight-color: #b7bd5b;
+$background-color: #3b525f;
+
+$footer-background: $background-color;
+$footer-sub-background: $highlight-color;
 
 @import "template/bootstrap/bootstrap";
 @import "template/jednotka_springboard";
 @import "overrides";
+
+
 
 .text-box {
   ul {
@@ -23,38 +33,9 @@ body {
 }
 
 
-@media (min-width: 768px){
-  .seven-cols .col-md-1,
-  .seven-cols .col-sm-1,
-  .seven-cols .col-lg-1,
-  .seven-cols .col-md-2,
-  .seven-cols .col-sm-2,
-  .seven-cols .col-lg-2,
-  .seven-cols .col-md-3,
-  .seven-cols .col-sm-3,
-  .seven-cols .col-lg-3 {
-    width: 100%;
-    *width: 100%;
-  }
-}
 
-@media (min-width: 992px) {
-  .seven-cols .col-md-1,
-  .seven-cols .col-sm-1,
-  .seven-cols .col-lg-1 {
-    width: 100%*(1/7);
-    *width: 100%*(1/7);
-  }
-  .seven-cols .col-md-2,
-  .seven-cols .col-sm-2,
-  .seven-cols .col-lg-2 {
-    width: 100%*(2/7);
-    *width: 100%*(2/7);
-  }
-  .seven-cols .col-md-3,
-  .seven-cols .col-sm-3,
-  .seven-cols .col-lg-3 {
-    width: 100%*(3/7);
-    *width: 100%*(3/7);
+#footer {
+  .icon .fa {
+    color: $highlight-color !important;
   }
 }
