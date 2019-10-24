@@ -43,11 +43,11 @@
         }
 
         .navbar-toggle {
-          color: $medium;
-          border-color: $medium;
+          color: $medium-light;
+          border-color: $medium-light;
 
           .icon-bar {
-            background-color: $medium;
+            background-color: $medium-light;
           }
         }
       }
@@ -73,7 +73,7 @@
 
   &.header--no-move {
     background: $background-color !important;
-    margin-bottom:70px !important;
+    margin-bottom:50px !important;
     a.navbar-brand {
       background-image: url(asset_path('logo-green-header.png')) !important;
     }
