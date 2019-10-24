@@ -39,7 +39,7 @@
     * --------------------------------------------------------------------------------------------------------------------
     */
   if (jQuery().carousel) {
-    $('.carousel.carousel-auto').carousel();
+    $('.carousel.carousel-auto').carousel({ interval: 10000 });
     $('.carousel.carousel-auto').on("swipeleft", function(e) {
       return $(this).carousel('next');
     });

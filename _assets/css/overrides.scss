@@ -12,6 +12,10 @@ body {
   font-size:32px !important;
 }
 
+.alt-font {
+  font-family: 'Libre Baskerville';
+}
+
 .case-study-title {
   font-size: 20px !important;
   font-family: 'Libre Baskerville';
@@ -31,7 +35,7 @@ body {
 
 @media only screen and (max-width: 1000px) {
   #main-content { margin-top: -60px;}
-  .hero-carousel { display: none; }
+  // .hero-carousel { display: none; }
 
 }
 
