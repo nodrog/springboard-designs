@@ -44,3 +44,8 @@ body {
 ul {
   list-style-type: none !important;
 }
+
+
+.navbar-brand {
+    background-image: url(asset_path('logo-grey-header.png'));
+  }

@@ -42,6 +42,7 @@ assets:
     - _assets/css/
     - _assets/css/bootstrap/
     - _assets/css/template/
+    - _assets/fonts/
     - _assets/images/
     # - _assets/images/backgrounds/
     # - _assets/images/icons/sided-services/
