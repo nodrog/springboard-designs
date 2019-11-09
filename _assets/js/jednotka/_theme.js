@@ -16,6 +16,7 @@
   $header = $("#header");
   $carousel = $(".hero-carousel");
   $main = $("#main");
+  debugger
   if ($header.attr("fixed")) {
     $header.addClass("header--default");
     $(window).scroll(function() {
